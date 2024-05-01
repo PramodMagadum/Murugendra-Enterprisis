@@ -586,6 +586,9 @@
     color: var(--light);
 }
 
+/* sticky call icocns */
+/* CSS for Call Icon */
+/* CSS for Call Icon */
 .call-icon {
     position: fixed;
     bottom: 5%;
@@ -610,15 +613,44 @@
     background-color: #0056b3; /* Background color on hover */
   }
   
-  .fa-phone-alt {
-    font-size: 24px;
+  .call-icon i {
+    font-size: 24px; /* Adjust the font size to make it the same as the WhatsApp icon */
   }
   
-  /* Media Query for smaller screens */
-  @media (max-width: 576px) {
-    .call-icon {
-      bottom: 10%;
-      right: 5%;
+  /* CSS for WhatsApp Icon */
+  .whatsapp-icon {
+    display: none; /* Initially hide the WhatsApp icon */
+  }
+  
+  .whatsapp-icon a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px; /* Set a fixed width */
+    height: 50px; /* Set a fixed height */
+    background-color: #25d366; /* WhatsApp green color */
+    color: #fff;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+  }
+  
+  .whatsapp-icon a:hover {
+    background-color: #128c7e; /* Darker shade of WhatsApp green on hover */
+  }
+  
+  .whatsapp-icon i {
+    font-size: 32px; /* Adjust the font size to make it the same as the call icon */
+  }
+  
+  /* Media Query for small screens (mobile and tablet) */
+  @media (max-width: 992px) {
+    .whatsapp-icon {
+      display: block; /* Show the WhatsApp icon on small screens */
+      position: fixed;
+      bottom: 5%;
+      left: 5%;
+      z-index: 1000;
     }
   }
   
