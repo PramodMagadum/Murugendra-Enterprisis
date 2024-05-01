@@ -38,7 +38,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 
     if (empty($errors)) {
-        $toEmail = 'magadumpramod420@gmail.com'; // Change this to your email address
+        $toEmail = 'magadu.com'; // Change this to your email address
         $emailSubject = 'New Service Booking';
         $emailBody = "Name: $name\n";
         $emailBody .= "Email: $email\n";
