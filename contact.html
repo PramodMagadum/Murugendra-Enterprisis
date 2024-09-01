@@ -75,15 +75,15 @@
     <div class="container-fluid nav-bar bg-light">
         <nav class="navbar navbar-expand-lg navbar-light bg-white p-3 py-lg-0 px-lg-4">
             <a href="" class="navbar-brand d-flex align-items-center m-0 p-0 d-lg-none">
-                <h1 class="text-primary m-0">Murugedra Enterprises</h1>
+                <h2 class="text-primary m-0">MURUGENDRA ENTERPRISES</h2>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                 <span class="fa fa-bars"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <div class="navbar-nav me-auto">
-                    <a href="index.html" class="nav-item nav-link">Home</a>
-                    <a href="about.html" class="nav-item nav-link">About</a>
+                    <a href="index.html" class="nav-item nav-link ">Home</a>
+                    <a href="about.html" class="nav-item nav-link ">About</a>
                     <a href="service.html" class="nav-item nav-link">Services</a>
                     <!-- <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
@@ -96,15 +96,16 @@
                     </div> -->
                     <a href="contact.html" class="nav-item nav-link active">Contact</a>
                 </div>
-                <div class="mt-4 mt-lg-0 me-lg-n4 py-3 px-4 bg-primary d-flex align-items-center">
+                <a href="https://wa.me/917406554548" target="_blank" class="mt-4 mt-lg-0 me-lg-n4 py-3 px-4 bg-primary d-flex align-items-center" title="Message Us on WhatsApp">
                     <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-white" style="width: 45px; height: 45px;">
-                        <i class="fa fa-phone-alt text-primary"></i>
+                        <!-- Your WhatsApp icon or image -->
+                        <img src="img/whatsappp.webp" alt="WhatsApp Image" style="width: 100%; height: 100%; object-fit: contain;">
                     </div>
                     <div class="ms-3">
-                        <p class="mb-1 text-white">Contact Us</p>
+                        <p class="mb-1 text-white"> Chat On WhatsApp </p>
                         <h5 class="m-0 text-secondary">+91 7406554548</h5>
                     </div>
-                </div>
+                </a>     
             </div>
         </nav>
     </div>
@@ -134,11 +135,24 @@
                 <div class="col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <h6 class="text-secondary text-uppercase">Get In Touch</h6>
                     <h1 class="mb-4">Contact For Any Query</h1>
-                    <p class="mb-4">The contact form is currently inactive. Get a functional and working contact form with Ajax & PHP in a few minutes. Just copy and paste the files, add a little code and you're done. <a href="https://htmlcodex.com/contact-form">Download Now</a>.</p>
+                    <p class="mb-4">Address
+                        23, Asirvad, 1st Cross Rd, <br>
+                        LIC Colony, Mathikere, <br>
+                        Bengaluru, <br>
+                        Karnataka 560054<br>
+                        <br>
+                        <br>
+                        PHONE -
+                        +91 7406554548<br>
+                        <br><br>
+                        Email -
+                        info@murugedraenterprisis.com</p><br>
                     <iframe class="position-relative w-100"
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3001156.4288297426!2d-78.01371936852176!3d42.72876761954724!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4ccc4bf0f123a5a9%3A0xddcfc6c1de189567!2sNew%20York%2C%20USA!5e0!3m2!1sen!2sbd!4v1603794290143!5m2!1sen!2sbd"
-                        frameborder="0" style="height: 300px; border:0;" allowfullscreen="" aria-hidden="false"
-                        tabindex="0"></iframe>
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31139.457425556116!2d77.55126122234986!3d13.029490750043491!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae170ac858aa25%3A0x276e5bfc4334b004!2s23%2C%20Asirvad%2C%201st%20Cross%20Rd%2C%20LIC%20Colony%2C%20Mathikere%2C%20Bengaluru%2C%20Karnataka%20560054%2C%20India!5e0!3m2!1sen!2sus!4v1603794290143!5m2!1sen!2sus"
+        frameborder="0" style="height: 300px; border:0;" allowfullscreen="" aria-hidden="false"
+        tabindex="0"></iframe>
+
+
                 </div>
                 <div class="col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="bg-light p-5 h-100 d-flex align-items-center">
@@ -180,7 +194,7 @@
     </div>
     <!-- Contact End -->
 
-    <form method="post" action="submit.php" id="contact-form">
+    <!-- <form method="post" action="submit.php" id="contact-form">
         <h2>Contact us</h2>
         ?php echo((!empty($errorMessage)) ? $errorMessage : '') ?
         <p>
@@ -226,69 +240,85 @@
         <p>
           <input type="submit" value="Book Now"/>
         </p>
-     </form>
-     
-    
-    <!-- Footer Start -->
-    <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
-        <div class="container py-5">
-            <div class="row g-5">
-                <div class="col-lg-3 col-md-6">
-                    <h4 class="text-light mb-4">Address</h4>
-                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i> 23, Asirvad, 1st Main Rd, LIC Colony, Mathikere</p>
-                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+91 7406554548 </p>
-                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@murugedra.com</p>
-                    <div class="d-flex pt-2">
-                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
-                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
-                    </div>
+     </form> -->
+      
+    <!--Sticky Call Icon-->
+    <div class="call-icon">
+        <a href="tel:+917406554548">
+          <i class="fas fa-phone-alt"></i>
+        </a>
+      </div>
+      <!--END-->
+
+    <!-- Sticky WhatsApp Icon -->
+<div class="whatsapp-icon">
+    <a href="https://wa.me/917406554548" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+</div>
+<!-- End Sticky WhatsApp Icon -->
+
+  <!-- Footer Start -->
+  <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+    <div class="container py-5">
+        <div class="row g-5">
+            <div class="col-lg-3 col-md-6">
+                <h4 class="text-light mb-4">Address</h4>
+                <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i> 23, Asirvad, 1st Main Rd, LIC Colony, Mathikere</p>
+                <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+91 7406554548 </p>
+                <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@murugedra.com</p>
+                <div class="d-flex pt-2">
+                    <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
+                    <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
                 </div>
-                <div class="col-lg-3 col-md-6">
-                    <h4 class="text-light mb-4">Opening Hours</h4>
-                    <h6 class="text-light">Monday - Friday:</h6>
-                    <p class="mb-4">09.00 AM - 09.00 PM</p>
-                    <h6 class="text-light">Saturday - Sunday:</h6>
-                    <p class="mb-0">09.00 AM - 12.00 PM</p>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <h4 class="text-light mb-4">Services</h4>
-                    <a class="btn btn-link" href="">Glass Cleaning</a>
-                    <a class="btn btn-link" href="">Dish Wash</a>
-                    <a class="btn btn-link" href="">Hoods</a>
-                    <a class="btn btn-link" href="">Micro Owen</a>
-                    <a class="btn btn-link" href="">Chimney</a>
-                </div>
-                <!-- <div class="col-lg-3 col-md-6">
-                    <h4 class="text-light mb-4">Newsletter</h4>
-                    <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
-                    <div class="position-relative mx-auto" style="max-width: 400px;">
-                        <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
-                        <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
-                    </div>
-                </div> -->
             </div>
+            <div class="col-lg-3 col-md-6">
+                <h4 class="text-light mb-4">Opening Hours</h4>
+                <h6 class="text-light">Monday - Saturday:</h6>
+                <p class="mb-4">09.00 AM - 06.00 PM</p>
+                <h6 class="text-light"> Sunday:</h6>
+                <p class="mb-0">09.00 AM - 01.00 PM</p>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <h4 class="text-light mb-4">Services</h4>
+                <a class="btn btn-link" href="">Commercial Dishwasher</a>
+                <a class="btn btn-link" href="">Glasswasher</a>
+                <a class="btn btn-link" href="">Dish Wash</a>
+                <a class="btn btn-link" href="">Hob</a>
+                <a class="btn btn-link" href="">Micro Owen</a>
+                <a class="btn btn-link" href="">Chimney Services</a>
+            </div>
+            <!-- <div class="col-lg-3 col-md-6">
+                <h4 class="text-light mb-4">Newsletter</h4>
+                <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
+                <div class="position-relative mx-auto" style="max-width: 400px;">
+                    <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
+                    <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
+                </div>
+            </div> -->
         </div>
-        <div class="container">
-            <div class="copyright">
-                <div class="row">
-                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                        &copy; <a class="border-bottom" href="#">MURUGENDRA ENTERPRISES</a>, All Right Reserved.
-                    </div>
-                    <div class="col-md-6 text-center text-md-end">
-                        <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
-                        <!-- Designed By <a class="border-bottom" href="https://htmlcodex.com">HTML Codex</a> -->
-                    </div>
+    </div>
+    <div class="container">
+        <div class="copyright">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                    &copy; <a class="border-bottom" href="#">MURUGENDRA ENTERPRISES</a>, All Right Reserved.
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
+                    <!-- Designed By <a class="border-bottom" href="https://htmlcodex.com">HTML Codex</a> -->
                 </div>
             </div>
         </div>
     </div>
-    <!-- Footer End -->
+</div>
+<!-- Footer End -->
 
 
     <!-- Back to Top -->
-    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-0 back-to-top"><i class="bi bi-arrow-up"></i></a>
+    <!-- <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-0 back-to-top"><i class="bi bi-arrow-up"></i></a> -->
 
 
     <!-- JavaScript Libraries -->
